@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.container{
+    width: 40%;
+    height: 75%;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container:hover{
+    box-shadow: #2666CF 0px 7px 29px 0px;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img{
+    height: 70px;
+}
+.login-here{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.form-label{
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.form-input{
+    border:2px solid gray;
+    font-family:'Poppins';
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.3s;
+    color: #2666CF;
+}
+.form-input:focus{
+    outline: none;
+    border:2px solid #2666CF;
+    
+}
+
+.btn{
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    font-family:'Poppins';
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.3s;
+    background-color: #2666CF;
+    color: white;
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A9A9A9;
+    font-family: 'Poppins';
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+hr{
+    width: 50%;
+    height: 2px;
+    color: #A9A9A9;
+    background-color: #A9A9A9;
+    border-width: 0;
+    margin: 1px 20px 1px 20px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+}
+.text{
+    color: #A9A9A9;
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.link:hover{
+    color: #2666CF;
+}
+
